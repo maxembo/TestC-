@@ -10,7 +10,6 @@ public class ThirdPractika : MonoBehaviour
         int[] array = {81, 22, 13, 34, 10, 34, 15, 26, 71, 68};
         SearchIndexInArray(array,43);
     }
-
     public void SearchIndexInArray(int[] arr, int number){
          int result = 0;
         for(int i = 0;i < arr.Length;i++){
@@ -20,7 +19,7 @@ public class ThirdPractika : MonoBehaviour
             } else 
          result = -1;
         }
-      Debug.Log(result);
+      Debug.Log($"Индекс первого вхождения числа {number} в массив:{result}");
     }
     
 }
