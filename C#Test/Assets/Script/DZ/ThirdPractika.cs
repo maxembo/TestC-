@@ -10,7 +10,7 @@ public class ThirdPractika : MonoBehaviour
         int[] array = {81, 22, 13, 34, 10, 34, 15, 26, 71, 68};
         SearchIndexInArray(array,43);
     }
-    public void SearchIndexInArray(int[] arr, int number){
+    private void SearchIndexInArray(int[] arr, int number){
          int result = 0;
         for(int i = 0;i < arr.Length;i++){
             if(number == arr[i]){
